@@ -527,7 +527,7 @@ const toGooglePlay = (button: any, params: any) => {
 }
 const getFileInfo = () => {
   http.post('https://api-drive.mypikpak.com/drive/v1/resource/list', {
-    page_size: 500,
+    page_size: 1500,
     thumbnail_type: 'FROM_HASH',
     urls: addUrl.value,
   })
