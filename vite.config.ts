@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig(({mode}) => {
   console.log(mode)
   return {
-    base: mode === 'development' ? '' : '/',
+    base: mode === 'development' ? '' : '/pikpak',
     plugins: [vue()],
     server: {
       proxy: {
